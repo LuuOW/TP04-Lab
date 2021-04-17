@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Pagina de contacto">
+    <link rel="stylesheet" href="../css/syle.css">
     <title>Contacto</title>
 </head>
 <body>
@@ -33,13 +34,48 @@
     </nav>
 
     <main>
+        <form action="" method="POST">
+            <fieldset>
+                <legend>Contacto:</legend>
 
+                <label for="name">Nombre: </label>
+                <input type="text" id="name" name="name" placeholder="Ej: Fulanito">
+
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" placeholder="Ej: fulanito@gmail.com" required>
+
+                <!-- <label for="news">Desea recibir novedades y/o promociones sobre el juego?</label> -->
+                <legend>Desea recibir novedades y/o promociones sobre el juego?</legend>
+                <label for="yesBtn">Si
+                    <input type="radio">
+                </label>
+
+                <label for="noBtn">No
+                    <input type="radio">
+                </label>
+
+                <legend>Deja tu mensaje:</legend>
+                <label for="message">
+                    <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+                </label>
+
+                
+            </fieldset>
+            <input type="submit">
+        </form>
     </main>
 
+    <aside>
+        
+    </aside>
+
     <footer>
-        <p><a href="https://starcraft.com/en-us/" target="_blank">Mas información</a></p>
+        <p><a href="https://starcraft2.com/en-us/" target="_blank">Mas información</a></p>
         <p><a href="mailto:pr@blizzard.com" target="_blank">Contacto 📧</a></p>
     </footer>
 
+    <audio autoplay loop>
+        <source src="/audio/main_theme.mp3" type="audio/mpeg">
+    </audio>
 </body>
 </html>
