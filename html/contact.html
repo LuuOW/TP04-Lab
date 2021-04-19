@@ -12,8 +12,8 @@
 
     <section>
         <ul>
-            <li><a href="#principal">saltar a contenido</a></li>
-            <li><a href="#navegacion">saltar a navegacion</a></li>
+            <li><a href="#principal" title="link para ir directamente al contenido">saltar a contenido</a></li>
+            <li><a href="#navegacion" title="link para ir directamente a los enlaces de navegacion">saltar a navegacion</a></li>
         </ul>
     </section>
 
@@ -25,15 +25,15 @@
         <h1></h1>
     </header>
 
-    <nav>
+    <nav id="navegacion">
         <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="/html/multimedia.html">Multimedia / Personajes</a></li>
-            <li><a href="/html/contact.html">Contacto</a></li>
+            <li><a href="../index.html" title="link para ir a la pagina de inicio">Inicio</a></li>
+            <li><a href="/html/multimedia.html" title="link para ir a la pagina de multimedia y personajes">Multimedia / Personajes</a></li>
+            <li><a href="/html/contact.html" title="link para ir a la pagina de contacto">Contacto</a></li>
         </ul>
     </nav>
 
-    <main>
+    <main id="principal">
         <form action="" method="POST">
             <fieldset>
                 <legend>Contacto:</legend>
@@ -56,7 +56,7 @@
 
                 <legend>Deja tu mensaje:</legend>
                 <label for="message">
-                    <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+                    <textarea name="message" id="message" cols="30" rows="5" required></textarea>
                 </label>
 
                 
@@ -66,12 +66,24 @@
     </main>
 
     <aside>
-        
+        <h2>Juegos Similares</h2>
+
+        <figure>
+            <img src="../img/warcraft.jpg" alt="">
+            <figcaption>WarCraft 3</figcaption>
+        </figure>
+
+        <figure>
+            <img src="../img/ageofempires.jpeg" alt="">
+            <figcaption>Age of Empires</figcaption>
+        </figure>
     </aside>
 
     <footer>
-        <p><a href="https://starcraft2.com/en-us/" target="_blank">Mas información</a></p>
-        <p><a href="mailto:pr@blizzard.com" target="_blank">Contacto 📧</a></p>
+        <ul>
+            <li><a href="https://starcraft2.com/en-us/" target="_blank" title="link para ir a la pagina original del juego">Mas información</a></li>
+            <li><a href="mailto:pr@blizzard.com" target="_blank" title="link para contactarse con los creadores">Contacto 📧</a></li>
+        </ul>
     </footer>
 
     <audio autoplay loop>

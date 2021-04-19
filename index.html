@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Pagina principal del sitio">
+    <meta name="description" content="Pagina principal de StarCraft">
     <link rel="stylesheet" href="/css/syle.css">
     <title>Inicio</title>
 </head>
@@ -12,8 +12,8 @@
 
     <section>
         <ul>
-            <li><a href="#principal">saltar a contenido</a></li>
-            <li><a href="#navegacion">saltar a navegacion</a></li>
+            <li><a href="#principal" title="link para ir directamente al contenido">saltar a contenido</a></li>
+            <li><a href="#navegacion" title="link para ir directamente a los enlaces de navegacion">saltar a navegacion</a></li>
         </ul>
     </section>
 
@@ -25,7 +25,7 @@
         <h1></h1>
     </header>
 
-    <nav>
+    <nav id="navegacion">
         <ul>
             <li><a href="./index.html">Inicio</a></li>
             <li><a href="/html/multimedia.html">Multimedia / Personajes</a></li>
@@ -33,13 +33,14 @@
         </ul>
     </nav>
 
-    <main>
+    <main id="principal" class="principal_1">
         <section>
             <article>
+                <h2>StarCraft Legacy of the Void</h2>
                 <video autoplay loop>
                     <source src="/video/header-video.webm" type="video/webm">
                 </video>
-                <h2>StarCraft Legacy of the Void</h2>
+
                 <p>
                     StarCraft II: Legacy of the Void is a standalone expansion pack to the military science fiction real-time strategy game StarCraft II: <br>
                     Wings of Liberty, and the third and final part of the StarCraft II trilogy developed by Blizzard Entertainment. <br>
@@ -54,7 +55,7 @@
         </section>
 
         <section>
-            <table>
+            <table class="table">
                 <thead>
                     <tr>
                         <th></th> <th>Minimum Requirements</th> <th>Recommended Specifications</th>
@@ -105,8 +106,10 @@
     </main>
 
     <footer>
-        <p><a href="https://starcraft2.com/en-us/" target="_blank">Mas información</a></p>
-        <p><a href="mailto:pr@blizzard.com" target="_blank">Contacto 📧</a></p>
+        <ul>
+            <li><a href="https://starcraft2.com/en-us/" target="_blank" title="link para ir a la pagina original del juego">Mas información</a></li>
+            <li><a href="mailto:pr@blizzard.com" target="_blank" title="link para contactarse con los creadores">Contacto 📧</a></li>
+        </ul>
     </footer>
     <audio autoplay loop>
         <source src="/audio/main_theme.mp3" type="audio/mpeg">
