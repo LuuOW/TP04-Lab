@@ -68,6 +68,9 @@ nav {
 .principal_1 section article p{
     border: 0.05em solid var(--color-org-sc);
     font-size: 1.2rem;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 2%;
 }
 
 
@@ -77,6 +80,7 @@ nav {
     background: black;
     text-align: center;
     width: 70%;
+    margin-left: 2%;
 }
 
 th {
@@ -119,6 +123,40 @@ th {
 .gallery article figure img {
     width: 100%;
 }
+
+/* aqui empieza el formulario de contacto  */
+
+.principal_3 {
+    border: 0.05em solid var(--color-org-sc);
+    width: 50%;
+}
+
+.principal_3 form {
+    font-size: 1.3em;
+    float: left;
+}
+
+.aside {
+    margin-left: 2rem;
+    margin-right: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 10% 0 10% 0;
+    width: 40%;
+    border: 0.05em solid var(--color-org-sc);
+
+}
+
+.aside h2 {
+    font-size: 1.3em;
+    margin-left: 2rem;
+}
+
+.aside img {
+    width: 100%;
+}
+
 
 
 /* Aqui termina la division del css */
