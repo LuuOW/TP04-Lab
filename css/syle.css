@@ -81,6 +81,7 @@ nav {
     text-align: center;
     width: 70%;
     margin-left: 2%;
+    margin-bottom: 2%;
 }
 
 th {
@@ -133,12 +134,13 @@ th {
 
 .principal_3 form {
     font-size: 1.3em;
+    margin: 2rem;
     float: left;
+    margin-right: 35%;
 }
 
 .aside {
-    margin-left: 2rem;
-    margin-right: 5rem;
+    margin: 2rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

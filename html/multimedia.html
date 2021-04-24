@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Pagina de multimedia">
     <link rel="stylesheet" href="../css/syle.css">
+    <meta name="author" content="Lucas A. Kempe">
     <title>Multimedia</title>
 </head>
 
@@ -22,7 +23,7 @@
     <header>
         <figure>
             <a href="../index.html"></a>
-            <img src="../img/starcraft_logo.png" alt="">
+            <img src="../img/starcraft_logo.png" alt="logo de starcraft">
             <figcaption></figcaption>
         </figure>
         <h1></h1>
@@ -38,34 +39,34 @@
 
     <main id="principal" class="principal_2">
         <video controls preload="metadata" poster="../img/trailer_poster.jpg">
-            <track label="English" kind="subtitles" srclang="eng">
+            <track label="English" kind="subtitles" srclang="en" src="" default>
             <source src="../video/starcraft_trailer.mp4" type="video/mp4">
         </video>
 
         <section class="gallery">
             <article>
                 <figure>
-                    <img src="/img/zeratul_artanis.jpg" alt="">
+                    <img src="/img/zeratul_artanis.jpg" alt="Zeratul y Artanis en Aiur en ruinas">
                     <figcaption>Zeratul y Artanis en Aiur en ruinas</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="/img/artanis_kerrigan.jpg" alt="">
+                    <img src="/img/artanis_kerrigan.jpg" alt="Artanis y Kerrigan investigando una cueva Xel'Naga">
                     <figcaption>Artanis y Kerrigan investigando una cueva Xel'Naga</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="/img/zeratul.jpg" alt="">
+                    <img src="/img/zeratul.jpg" alt="Zeratul junto a sus stalkers">
                     <figcaption>Zeratul junto a sus stalkers</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="/img/kerrigan.jpg" alt="">
+                    <img src="/img/kerrigan.jpg" alt="Kerrigan, reina de espadas">
                     <figcaption>Kerrigan, reina de espadas</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="/img/artanis.jpg" alt="">
+                    <img src="/img/artanis.jpg" alt="Artanis comandando la invasion a Aiur">
                     <figcaption>Artanis comandando la invasion a Aiur</figcaption>
                 </figure>
             </article>
@@ -80,7 +81,8 @@
     </footer>
 
     <audio autoplay loop>
-        <source src="/audio/main_theme.mp3" type="audio/mpeg">
+        <source src="../audio/main_theme.mp3" type="audio/mpeg">
+        <track label="Español" kind="subtitles" srclang="es" src="../video/sintel-es.vtt">
     </audio>
 
 </body>
